@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <div class="logo">O</div>
+                <h2>ORA</h2>
+            </div>
+
+            <button id="new-chat" class="new-chat">
+                <span>+</span>
+                New chat
+            </button>
+
+            <div class="history-title">Recent chats</div>
+
+            <div id="chat-history" class="chat-history"></div>
+
+        </aside>
+
+        <main class="chat-container">
+
+            <div class="header">
+
+                <div class="bot-icon">O</div>
+
+                <div>
+                    <h2 id="chat-title">New chat</h2>
+
+                    <span>
+                        <span class="online-dot"></span>
+                        Online
+                    </span>
+                </div>
+
+            </div>
+
+            <div id="messages" class="messages">
+
+                <div class="welcome">
+
+                    <div class="welcome-icon">O</div>
+
+                    <h1>How can I help?</h1>
+
+                    <p>
+                        Ask anything. ORA is here to help.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <form id="chat-form" class="input-area">
+
+                <input id="message-input" type="text" placeholder="Message ORA..." autocomplete="off">
+
+                <button type="submit" aria-label="Send">
+                    ↑
+                </button>
+
+            </form>
+
+        </main>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
